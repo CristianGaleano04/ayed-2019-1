@@ -1,9 +1,20 @@
+#Cristian Andres Galeano Poveda
 import json
+from sys import stdin
 
+
+    
 
 # TODO Complete!!
 def reverse(text):
-    return text
+    if len(text)== 1:
+        return texto
+    else:
+        return text[::-1]
+def main():
+    text = stdin.readline().strip()
+    print(reverse(text))
+main()
 
 
 if __name__ == '__main__':
